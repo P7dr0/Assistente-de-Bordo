@@ -1,0 +1,16 @@
+{
+  "name": "assistente-de-bordo-backend",
+  "version": "1.0.0",
+  "description": "Backend do Assistente de Bordo - Controle de manutenção veicular",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.0",
+    "helmet": "^8.0.0",
+    "sql.js": "^1.11.0"
+  }
+}
